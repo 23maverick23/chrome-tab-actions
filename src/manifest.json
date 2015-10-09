@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+
+    "name": "Chrome Tab Actions",
+    "short_name": "Tab Actions",
+    "version": "1.0.0",
+    "description": "Handy right click context menu options for tabs.",
+
+    "author": "Ryan Morrissey @rymoio",
+    "homepage_url": "https://rymo.io/",
+
+    "icons": {
+        "19": "img/icon-19.png",
+        "38": "img/icon-19.png",
+        "48": "img/icon-48.png",
+        "128": "img/icon-128.png"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "permissions": [
+        "contextMenus",
+        "storage",
+        "tabs"
+    ]
+}
